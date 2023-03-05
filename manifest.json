@@ -4,21 +4,21 @@
   "version": "1.0",
   "description": "A chrome extension that adds an 'export chatlogs' button to Bing Chat interface and exports a txt file of the conversation.",
   "icons": {
-    "48": "/icons/icon48.png",
-  }
+    "48": "/icons/icon48.png"
+  },
   "permissions": [
     "<all_urls>",
     "storage"
-  ]
+  ],
   "background": {
     "service_worker": "/background.js"
-  }
+  },
   "content_scripts": [
     {
       "matches": ["https://www.bing.com/*"],
       "js": ["/content.js"]
     }
-  ]
+  ],
   "action": {
     "default_popup": "/popup.html"
   }
