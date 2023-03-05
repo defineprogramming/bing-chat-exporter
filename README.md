@@ -32,4 +32,4 @@ To use this extension, follow these steps:
 
 ## License
 
-This extension is licensed under the Apache 2.0 License - see the LICENSE(LICENSE) file for details.
+This extension is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
